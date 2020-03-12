@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_generate_blocks_before">
+        <observer 
+        	name="codelegacy_robots_meta_tag" 
+        	instance="Codelegacy\ChangeMetaTags\Observer\ChangeRobotsTag" />
+    </event>
+</config>
